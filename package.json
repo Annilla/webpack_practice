@@ -1,0 +1,26 @@
+{
+  "name": "webpack_practice",
+  "version": "1.0.0",
+  "description": "Webpack 3",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annilla/webpack_practice.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Anny Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annilla/webpack_practice/issues"
+  },
+  "homepage": "https://github.com/Annilla/webpack_practice#readme",
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}
