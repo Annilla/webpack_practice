@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Annilla/webpack_practice#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^2.29.0",
     "webpack": "^3.0.0"
   }
 }
