@@ -1,1 +1,2 @@
-console.log('Hello World!');
+// Main CSS
+require('./app.scss');
