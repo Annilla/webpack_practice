@@ -4,7 +4,7 @@
   "description": "Webpack 3",
   "main": "./src/app.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack-dev-server --open",
     "prod": "webpack -p"
   },
   "repository": {
@@ -28,7 +28,8 @@
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.4.1"
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.7.1"
   },
   "browserslist": [
     "Explorer 11",
