@@ -31,13 +31,16 @@ module.exports = {
             presets: ['env']
           }
         }
+      },
+      {
+        test: /\.pug$/,
+        use: 'pug-loader'
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Custom template',
-      template: './src/index.html'
+      template: './src/index.pug'
     }),
     new ExtractTextPlugin({
       filename: 'app.css',
